@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff9eb;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+}
+
+#title{
+    font-size: 35px;
+}
+
+#text{
+    font-size: 18px;
+}
+
+/* ----- Nav ----- */
+
+header {
+    display: flex;
+    width: 85%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(227, 236, 236);
+    border: 3px outset #5700f865;
+}
+
+.logo-container, .nav-links {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1;
+    background-color: transparent;
+}
+
+.logo {
+    margin: 8px 0px 0px 20px;
+    width: 130px; 
+    background-color: transparent;
+}
+
+nav {
+    flex: 3;
+    background-color: transparent;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+    background-color: transparent;
+}
+
+.nav-link {
+    font-size: 18px;
+    padding: 10px;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 6px;
+}
+
+.nav-link:hover {
+    border: 2px solid #5700f865
+}
+.nav-main {
+    color: white;
+    background: black;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.hamburger img {
+    float: right;
+    height: 3vh;
+    cursor: pointer;
+}
+.hamburger {
+    display: none;
+}
+
+/* ------------- index.html ------------- */
+
+.presentation {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    height: 80vh;
+    align-items: center;
+}
+
+.intro {
+    flex: 1;
+    margin-right: 25px;
+}
+
+.intro-text h2 {
+    height: 100%;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.intro-text p {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.cta-select {
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    width: 20%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cta-select:hover {
+    border: 2px solid #5700f865;
+}
+
+.idea-bulb {
+    position: absolute;
+    top: 17%;
+    right: 10vw;
+    z-index: -1;
+    height: 60%;
+    opacity: 0.05;
+}
+
+/* ------------- contact.html --------------- */
+
+.container-contact{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-top: 10px;
+}
+td{
+    text-align: left;
+    padding: 5px;
+    margin: 5px;
+}
+tr{
+    justify-content: space-around;
+    text-align: left;
+}
+
+.contactUs{
+    display: block;
+}
+
+.EmailTitle{
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+input{
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    display: block;
+}
+
+textarea{
+    padding: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+#message{
+    height: 105px;
+    font-family: 'Poppins', sans-serif;
+    resize: none;
+}
+
+/* ------------ schedule.html -------- */
+
+.Schedule{
+    align-items: center;
+    width: 75%;
+    min-width: 320px;
+    margin-left: 12.5%;
+    margin-bottom: 2%;
+}
+
+th,td{
+    width: 25%;
+    text-align: center;
+    padding-top: 2%;
+    border: 2px solid transparent;
+    background-color: white;
+}
+
+tr{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.pText{
+    text-align: center;
+    margin: 10px;
+}
+
+/* ------------- staff.html ------------ */
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 8px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 250px;
+  }
+  
+  .container h3{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .title {
+    color: grey;
+    width: 100%;
+  }
+
+/* ------------- Footer  ------------ */
+
+footer {
+    display: flex;
+    height: 35px;
+    margin: auto;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex: 2;
+    color: rgb(0, 0, 0);
+    border-top: 3px solid #5700f865;
+    background-color: white;
+}

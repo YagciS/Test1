@@ -1,0 +1,14 @@
+@media screen and (max-width: 500px){
+    #title{
+        font-size: 22px;
+    }
+    #text{
+        font-size: 15px;
+    }
+    .cta-select{
+        font-size: 11px;
+    }
+    footer{
+        font-size: 9px;
+    }
+}
